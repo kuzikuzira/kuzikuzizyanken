@@ -13,7 +13,7 @@ if hand==cpu:
   print("あいこ！気が合うな！好き！\n")
 
 elif hand=="ぐー":
-  print("ぐーをだしましたか…\n")
+  print("ひいっ！殴らないで！\n")
   print(hai[num])
   if cpu=="ちょき":
     print("人生の勝者！\n")
@@ -21,7 +21,7 @@ elif hand=="ぐー":
     print("負け犬が！何で負けたか明日までに考えといてください\n")
 
 elif hand=="ぱー":
-  print("ぱーをだしたな！\n")
+  print("貴様と握手なんぞするつもりはない！\n")
   print(hai[num])
   if cpu=="ぐー":
     print("人生の勝者！\n")
