@@ -1,5 +1,8 @@
 ﻿from sys import argv
 
+text=""
+comment=""
+
 import random
 
 hand=argv[1]
@@ -13,7 +16,7 @@ if hand==cpu:
   text="あいこ！気が合うな！好き！\n"
 
 elif hand=="ぐー":
-  text="ひいっ！殴らないで！\n"
+  comment="ひいっ！殴らないで！\n"
   text=hai[num]
   if cpu=="ちょき":
     text="人生の勝者！\n"
@@ -21,7 +24,7 @@ elif hand=="ぐー":
     text="負け犬が！何で負けたか明日までに考えといてください\n"
 
 elif hand=="ぱー":
-  text="貴様と握手なんぞするつもりはない！\n"
+  comment="貴様と握手なんぞするつもりはない！\n"
   text=hai[num]
   if cpu=="ぐー":
     text="人生の勝者！\n"
@@ -29,7 +32,7 @@ elif hand=="ぱー":
     text="負け犬が！何で負けたか明日までに考えといてください\n"
 
 elif hand=="ちょき":
-  text="蟹の真似事か!小ざかしい！\n"
+  comment="蟹の真似事か!小ざかしい！\n"
   text=hai[num]
   if cpu=="ぱー":
     text="人生の勝者！\n"
@@ -38,5 +41,6 @@ elif hand=="ちょき":
 
 else :
   text="ふざけないでください！\n"
+print(comment)
 print(cpu)
 print(text)
