@@ -19,8 +19,6 @@ print(hai[num])
 
 cpu=hai[num]
 
-print(input())
-
 while hand==cpu:
   print("あいこだ！もう一度！\n")
   hand=input()
@@ -29,7 +27,6 @@ while hand==cpu:
   hai=["ぐー","ちょき","ぱー"]
   print(hai[num])
   cpu=hai[num]
-  print(input())
 
 if hand=="ぐー":
   if cpu=="ちょき":
