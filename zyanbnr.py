@@ -9,7 +9,10 @@ hai=["ぐー","ちょき","ぱー"]
 
 cpu=hai[num]
 
-if hand=="ぐー":
+if hand==cpu:
+  print("あいこ！気が合うな！好き！\n")
+
+elif hand=="ぐー":
   print("ぐーをだしましたか…\n")
   print(hai[num])
   if cpu=="ちょき":
