@@ -2,7 +2,7 @@
 
 import random
 
-hand=(argv[1])
+hand=argv[1]
 
 num=random.randint(0,2)
 hai=["ぐー","ちょき","ぱー"]
