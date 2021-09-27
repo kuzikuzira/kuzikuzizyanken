@@ -1,7 +1,13 @@
-﻿from sys import argv
+from sys import argv
 
 import random
 
-num=random.randint(1,6)
+kai=int(argv[1])
 
-print(num)
+num=int(argv[2])
+
+i=0
+while i < kai:
+  dem=random.randint(1,num)
+  i+=1
+  print(dem)
