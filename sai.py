@@ -14,7 +14,7 @@ if kai<=100 and num<=100:
   while i < kai:
     dem=random.randint(1,num)
     i+=1
-    text=text+str(dem)
+    text=text+str(dem)+str(", ")
 
 else:
   text="無理っす。\nできねっす。"
