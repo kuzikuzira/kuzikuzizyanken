@@ -2,12 +2,18 @@
 
 def col():
   num=random.randint(0,255)
+
   return num
 
-r=col()
+def iro():
+  r=col()
 
-g=col()
+  g=col()
 
-b=col()
+  b=col()
 
-print("https://fromkato.com/color/%x%x%x.png"%(r,g,b))
+  return("https://fromkato.com/color/%x%x%x.png"%(r,g,b))
+
+#print(iro())
+
+#%xは代入される値。％ｓだと文字列として代入。だから.pngは％ｘのあとでいい。
