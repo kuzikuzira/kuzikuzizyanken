@@ -12,7 +12,7 @@ def iro():
 
   b=col()
 
-  return("https://fromkato.com/color/%x%x%x.png"%(r,g,b))
+  return("https://fromkato.com/color/%02x%02x%02x.png"%(r,g,b))
 
 #print(iro())
 
